@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"C:\\Users\\aotak\\OneDrive\\デスクトップ\\Unreal_ObstacleGame\\ObstacleGame\\Source\\ObstacleGame\\ObstacleGame.Build.cs",
+		"C:\\Users\\aotak\\OneDrive\\デスクトップ\\Unreal_ObstacleGame\\ObstacleGame\\Source\\ObstacleGame.Target.cs",
+		"C:\\Users\\aotak\\OneDrive\\デスクトップ\\Unreal_ObstacleGame\\ObstacleGame\\Source\\ObstacleGameEditor.Target.cs"
+	],
+	"EngineVersion": "5.0.3"
+}

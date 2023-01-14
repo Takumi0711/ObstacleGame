@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "ObstacleGame",
+			"Path": "C:\\Users\\aotak\\OneDrive\\デスクトップ\\Unreal_ObstacleGame\\ObstacleGame\\Source\\ObstacleGame.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "ObstacleGameEditor",
+			"Path": "C:\\Users\\aotak\\OneDrive\\デスクトップ\\Unreal_ObstacleGame\\ObstacleGame\\Source\\ObstacleGameEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

@@ -1,0 +1,707 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "UnrealLearningKit Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealLearningKit",
+				"Win64",
+				"Debug",
+				"C:\\Users\\aotak\\Documents\\Unreal Projects\\UnrealLearningKit\\UnrealLearningKit.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealLearningKit Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealLearningKit",
+				"Win64",
+				"Debug",
+				"C:\\Users\\aotak\\Documents\\Unreal Projects\\UnrealLearningKit\\UnrealLearningKit.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UnrealLearningKit Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealLearningKit Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UnrealLearningKit",
+				"Win64",
+				"Debug",
+				"C:\\Users\\aotak\\Documents\\Unreal Projects\\UnrealLearningKit\\UnrealLearningKit.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealLearningKit Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealLearningKit",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\aotak\\Documents\\Unreal Projects\\UnrealLearningKit\\UnrealLearningKit.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealLearningKit Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealLearningKit",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\aotak\\Documents\\Unreal Projects\\UnrealLearningKit\\UnrealLearningKit.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UnrealLearningKit Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealLearningKit Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UnrealLearningKit",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\aotak\\Documents\\Unreal Projects\\UnrealLearningKit\\UnrealLearningKit.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealLearningKit Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealLearningKit",
+				"Win64",
+				"Development",
+				"C:\\Users\\aotak\\Documents\\Unreal Projects\\UnrealLearningKit\\UnrealLearningKit.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealLearningKit Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealLearningKit",
+				"Win64",
+				"Development",
+				"C:\\Users\\aotak\\Documents\\Unreal Projects\\UnrealLearningKit\\UnrealLearningKit.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UnrealLearningKit Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealLearningKit Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UnrealLearningKit",
+				"Win64",
+				"Development",
+				"C:\\Users\\aotak\\Documents\\Unreal Projects\\UnrealLearningKit\\UnrealLearningKit.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealLearningKit Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealLearningKit",
+				"Win64",
+				"Test",
+				"C:\\Users\\aotak\\Documents\\Unreal Projects\\UnrealLearningKit\\UnrealLearningKit.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealLearningKit Win64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealLearningKit",
+				"Win64",
+				"Test",
+				"C:\\Users\\aotak\\Documents\\Unreal Projects\\UnrealLearningKit\\UnrealLearningKit.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UnrealLearningKit Win64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealLearningKit Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UnrealLearningKit",
+				"Win64",
+				"Test",
+				"C:\\Users\\aotak\\Documents\\Unreal Projects\\UnrealLearningKit\\UnrealLearningKit.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealLearningKit Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealLearningKit",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\aotak\\Documents\\Unreal Projects\\UnrealLearningKit\\UnrealLearningKit.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealLearningKit Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealLearningKit",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\aotak\\Documents\\Unreal Projects\\UnrealLearningKit\\UnrealLearningKit.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UnrealLearningKit Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealLearningKit Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UnrealLearningKit",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\aotak\\Documents\\Unreal Projects\\UnrealLearningKit\\UnrealLearningKit.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealLearningKit HoloLens Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealLearningKit",
+				"HoloLens",
+				"Debug",
+				"C:\\Users\\aotak\\Documents\\Unreal Projects\\UnrealLearningKit\\UnrealLearningKit.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealLearningKit HoloLens Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealLearningKit",
+				"HoloLens",
+				"Debug",
+				"C:\\Users\\aotak\\Documents\\Unreal Projects\\UnrealLearningKit\\UnrealLearningKit.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UnrealLearningKit HoloLens Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealLearningKit HoloLens Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UnrealLearningKit",
+				"HoloLens",
+				"Debug",
+				"C:\\Users\\aotak\\Documents\\Unreal Projects\\UnrealLearningKit\\UnrealLearningKit.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealLearningKit HoloLens DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealLearningKit",
+				"HoloLens",
+				"DebugGame",
+				"C:\\Users\\aotak\\Documents\\Unreal Projects\\UnrealLearningKit\\UnrealLearningKit.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealLearningKit HoloLens DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealLearningKit",
+				"HoloLens",
+				"DebugGame",
+				"C:\\Users\\aotak\\Documents\\Unreal Projects\\UnrealLearningKit\\UnrealLearningKit.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UnrealLearningKit HoloLens DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealLearningKit HoloLens DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UnrealLearningKit",
+				"HoloLens",
+				"DebugGame",
+				"C:\\Users\\aotak\\Documents\\Unreal Projects\\UnrealLearningKit\\UnrealLearningKit.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealLearningKit HoloLens Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealLearningKit",
+				"HoloLens",
+				"Development",
+				"C:\\Users\\aotak\\Documents\\Unreal Projects\\UnrealLearningKit\\UnrealLearningKit.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealLearningKit HoloLens Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealLearningKit",
+				"HoloLens",
+				"Development",
+				"C:\\Users\\aotak\\Documents\\Unreal Projects\\UnrealLearningKit\\UnrealLearningKit.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UnrealLearningKit HoloLens Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealLearningKit HoloLens Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UnrealLearningKit",
+				"HoloLens",
+				"Development",
+				"C:\\Users\\aotak\\Documents\\Unreal Projects\\UnrealLearningKit\\UnrealLearningKit.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealLearningKit HoloLens Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealLearningKit",
+				"HoloLens",
+				"Test",
+				"C:\\Users\\aotak\\Documents\\Unreal Projects\\UnrealLearningKit\\UnrealLearningKit.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealLearningKit HoloLens Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealLearningKit",
+				"HoloLens",
+				"Test",
+				"C:\\Users\\aotak\\Documents\\Unreal Projects\\UnrealLearningKit\\UnrealLearningKit.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UnrealLearningKit HoloLens Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealLearningKit HoloLens Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UnrealLearningKit",
+				"HoloLens",
+				"Test",
+				"C:\\Users\\aotak\\Documents\\Unreal Projects\\UnrealLearningKit\\UnrealLearningKit.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealLearningKit HoloLens Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealLearningKit",
+				"HoloLens",
+				"Shipping",
+				"C:\\Users\\aotak\\Documents\\Unreal Projects\\UnrealLearningKit\\UnrealLearningKit.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealLearningKit HoloLens Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealLearningKit",
+				"HoloLens",
+				"Shipping",
+				"C:\\Users\\aotak\\Documents\\Unreal Projects\\UnrealLearningKit\\UnrealLearningKit.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UnrealLearningKit HoloLens Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealLearningKit HoloLens Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UnrealLearningKit",
+				"HoloLens",
+				"Shipping",
+				"C:\\Users\\aotak\\Documents\\Unreal Projects\\UnrealLearningKit\\UnrealLearningKit.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealLearningKitEditor Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealLearningKitEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\aotak\\Documents\\Unreal Projects\\UnrealLearningKit\\UnrealLearningKit.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealLearningKitEditor Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealLearningKitEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\aotak\\Documents\\Unreal Projects\\UnrealLearningKit\\UnrealLearningKit.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UnrealLearningKitEditor Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealLearningKitEditor Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UnrealLearningKitEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\aotak\\Documents\\Unreal Projects\\UnrealLearningKit\\UnrealLearningKit.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealLearningKitEditor Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealLearningKitEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\aotak\\Documents\\Unreal Projects\\UnrealLearningKit\\UnrealLearningKit.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealLearningKitEditor Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealLearningKitEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\aotak\\Documents\\Unreal Projects\\UnrealLearningKit\\UnrealLearningKit.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UnrealLearningKitEditor Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealLearningKitEditor Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UnrealLearningKitEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\aotak\\Documents\\Unreal Projects\\UnrealLearningKit\\UnrealLearningKit.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealLearningKitEditor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealLearningKitEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\aotak\\Documents\\Unreal Projects\\UnrealLearningKit\\UnrealLearningKit.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealLearningKitEditor Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"UnrealLearningKitEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\aotak\\Documents\\Unreal Projects\\UnrealLearningKit\\UnrealLearningKit.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"UnrealLearningKitEditor Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.0"
+			}
+		},
+		{
+			"label": "UnrealLearningKitEditor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"UnrealLearningKitEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\aotak\\Documents\\Unreal Projects\\UnrealLearningKit\\UnrealLearningKit.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\Epic Games\\UE_5.0"
+			}
+		}
+	]
+}

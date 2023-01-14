@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-ObstacleGame.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\aotak\OneDrive\デスクトップ\Unreal_ObstacleGame\ObstacleGame\Intermediate\Build\Win64\ObstacleGameEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\aotak\OneDrive\デスクトップ\Unreal_ObstacleGame\ObstacleGame\Intermediate\Build\Win64\UnrealEditor\Development\ObstacleGame\MovingPlatform.cpp.obj"
+"C:\Users\aotak\OneDrive\デスクトップ\Unreal_ObstacleGame\ObstacleGame\Intermediate\Build\Win64\UnrealEditor\Development\ObstacleGame\ObstacleGame.cpp.obj"
+"C:\Users\aotak\OneDrive\デスクトップ\Unreal_ObstacleGame\ObstacleGame\Intermediate\Build\Win64\UnrealEditor\Development\ObstacleGame\MovingPlatform.gen.cpp.obj"
+"C:\Users\aotak\OneDrive\デスクトップ\Unreal_ObstacleGame\ObstacleGame\Intermediate\Build\Win64\UnrealEditor\Development\ObstacleGame\ObstacleGame.init.gen.cpp.obj"
+"C:\Users\aotak\OneDrive\デスクトップ\Unreal_ObstacleGame\ObstacleGame\Intermediate\Build\Win64\UnrealEditor\Development\ObstacleGame\Default.rc2.res"
+/OUT:"C:\Users\aotak\OneDrive\デスクトップ\Unreal_ObstacleGame\ObstacleGame\Intermediate\Build\Win64\UnrealEditor\Development\ObstacleGame\UnrealEditor-ObstacleGame.lib"
